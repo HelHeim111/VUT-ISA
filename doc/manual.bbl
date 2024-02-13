@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{Syslog}
+{\em 18.2.5 Syslog Example}.
+
+\bibitem{string}
+GeeksForGeeks.
+\newblock C library - <string.h>.
+\newblock [online].
+
+\bibitem{Microsoft}
+Microsoft.
+\newblock Dynamic host configuration protocol (dhcp).
+\newblock [online], 2021.
+
+\bibitem{ncurses}
+Opensource.com.
+\newblock Position text on your screen in linux with ncurses.
+\newblock [online], 2021.
+
+\end{thebibliography}

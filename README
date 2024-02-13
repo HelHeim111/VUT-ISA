@@ -1,0 +1,24 @@
+# VUT-ISA
+### Author: Denys Petrovskyi (xpetro27@stud.fit.vutbr.cz)
+### Date: 19.11.2023
+
+## General Description
+This program intercepts flow of dhcp packets on a desired interface or through **pcap** file and then provides information about utilization of a network prefix.
+
+## Usage
+```
+./dhcp-stats [-r <filename>] [-i <interface-name>] <ip-prefix> [ <ip-prefix> [ ... ] ]
+```
+To compile and create an executable use command `make`.
+### Definition of arguments
+* `[-r <filename>]` - path to a pcap file.
+* `[-i <interface-name>]` - chosen interface.
+* One of the two arguments above must be provided for the program to work but not both simultaneously.
+* Amount of ip prefixes is unlimited. They must be entered separated by space. The order of the arguments is important.
+
+## List of files
+* dhcp-stats.c - source file of the application
+* dhcp-stats.1
+* manual.pdf
+* Makefile
+* README.md

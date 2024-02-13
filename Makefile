@@ -1,6 +1,6 @@
 NAME = dhcp_stats
 TARGET = dhcp-stats
-FLAGS = -lpcap
+FLAGS = -lpcap -lncurses
 CC = gcc
 
 all: $(NAME).c
